@@ -18,5 +18,5 @@ answer = input("Please input Y for yes, N for no : ")
 if answer != "Y" :
     quit
 else :
-    print ("OK lets continue")
+    print ("OK "+ name +", lets continue")
 #to be continued
