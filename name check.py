@@ -11,9 +11,12 @@ else :
 #printing out price
 print ("Welcome "+ name +" "+ surname )
 print ("As "+ status +", todays lessons will be " +price)
+#ask user if they wish to proceed
 print ("Do you wish to continue with todays lesson ? ")
 answer = input("Please input Y for yes, N for no : ")
+# anything other than Y will quit program
 if answer != "Y" :
     quit
 else :
     print ("OK lets continue")
+#to be continued
