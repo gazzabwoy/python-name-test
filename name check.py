@@ -1,3 +1,6 @@
+#clear the screen
+def cls() :
+    print('\n' * 50)
 #ask user to input forename and surname
 name = input ("What is your Forename: ")
 surname = input ("What is your Surname : ")
@@ -18,5 +21,5 @@ answer = input("Please input Y for yes, N for no : ")
 if answer != "Y" :
     quit
 else :
-    print ("OK "+ name +", lets continue")
+    print ("OK "+ name +", lets continue :")
 #to be continued
