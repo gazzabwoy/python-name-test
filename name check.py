@@ -13,6 +13,7 @@ print ("Welcome "+ name +" "+ surname )
 print ("As "+ status +", todays lessons will be " +price)
 print ("Do you wish to continue with todays lesson ? ")
 answer = input("Please input Y for yes, N for no : ")
-if answer != "Y":
+if answer != "Y" :
     quit
-print ("OK lets continue")
+else :
+    print ("OK lets continue")
