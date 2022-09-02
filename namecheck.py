@@ -24,3 +24,4 @@ if answer != "Y" :
 else :
     print ("OK "+ name +", lets continue :")
 #to be continued
+quit
