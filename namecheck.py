@@ -19,6 +19,7 @@ print ("Do you wish to continue with todays lesson ? ")
 answer = input("Please input Y for yes, N for no : ")
 # anything other than Y will quit program
 if answer != "Y" :
+    print ("OK "+ name +", Goodbye")
     quit
 else :
     print ("OK "+ name +", lets continue :")
